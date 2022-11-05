@@ -45,7 +45,7 @@ web-vitals 2.1.4
 npm run build
 npm run start
 
-Live app hosted at: https://MERN-booksearch-module-21.herokuapp.com/
+Live app hosted at: https://mern-booksearch-module-21.herokuapp.com/
 
 ## Contributors
 hale-bopp97 https://github.com/hale-bopp97/
