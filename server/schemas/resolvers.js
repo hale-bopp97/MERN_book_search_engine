@@ -9,14 +9,14 @@ const resolvers = {
             
             if (context.user) {
             
-                const userData = await User.findOne({_id: context.user._id}).select("-__V -password");
+                const userData = await User.findOne({ _id: context.user._id }).select("-__V -password");
                 return userData;
             
             }
             
             throw new AuthenticationError("Not logged in")
         
-        }
+        },
     },
     
     Mutation: {
@@ -87,3 +87,5 @@ const resolvers = {
 
     }
 }
+
+module.exports = resolvers;
